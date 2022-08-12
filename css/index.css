@@ -1,4 +1,13 @@
-@import url(common.css);
-@import url(header.css);
-@import url(main.css);
-@import url(footer.css);
+header {
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+}
+
+.big__header {
+    color: rgb(181, 197, 211);
+    font-family: Courier New, monospace ;
+}
+
+.ruka_link {
+    text-decoration: none}
