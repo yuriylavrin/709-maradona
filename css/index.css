@@ -9,5 +9,9 @@ header {
     font-family: Courier New, monospace ;
 }
 
-.ruka_link {
-    text-decoration: none}
+.batonki {
+   text-decoration: none;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
