@@ -1,17 +1,46 @@
+
+
 header {
     text-align: center;
     font-size: 50px;
-    background-color: black;
+    background-color: rgb(255, 255, 184);
 }
 
 .big__header {
     color: rgb(181, 197, 211);
     font-family: Courier New, monospace ;
 }
+ 
+.bg-light {background-color: rgb(255, 255, 184)!important;}
 
-.batonki {
+
+
+.ruka_link {
    text-decoration: none;
-   color: white;
-   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(181, 197, 211)
 }
 
+.ruka_link:hover {
+    color: white; 
+    transition: 1s;
+ }
+
+.noga_link {
+    text-decoration: none;
+    color: rgb(181, 197, 211)
+  }
+
+  .noga_link:hover {
+    color: white; 
+    transition: 1s;
+ }
+ 
+ .haed_link {
+    text-decoration: none;
+    color:rgb(181, 197, 211) 
+ }
+ 
+ .haed_link:hover {
+    color: white; 
+    transition: 1s;
+ }
