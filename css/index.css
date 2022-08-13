@@ -6,6 +6,17 @@ header {
     background-color: rgb(255, 255, 184);
 }
 
+.nav-link { 
+   text-align: center; !important;
+   color: rgb(181, 197, 211) !important;
+   }
+
+.nav-link:hover {
+      color: blueviolet; !important;
+      transition: 0.5s; !important;
+
+   }
+
 .big__header {
     color: rgb(181, 197, 211);
     font-family: Courier New, monospace ;
@@ -14,6 +25,21 @@ header {
 .bg-light {background-color: rgb(255, 255, 184)!important;}
 
 
+.back {
+   background-color: black;
+}
+
+section {
+   padding: 10px;
+}
+
+.sub__header {
+ text-align: center;
+ font-size: 40px;
+ font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+ color: rgb(206, 240, 253);
+}
 
 .ruka_link {
    text-decoration: none;
@@ -44,3 +70,59 @@ header {
     color: white; 
     transition: 1s;
  }
+
+ .image__wrapper {
+   background-size: cover;
+   border-radius: 50%;
+   width: 300px;
+   height: 300px;
+ }
+
+ .image__wrapper__rukavica {
+   background-image: url("../img/hand.jpg");
+  
+   background-position: 37% 50%;
+ }
+
+ .image__wrapper__nizhky  {
+   background-image: url("../img/foot.jpg");
+  
+   background-position: 60% 50%;
+
+ }
+
+ .glova {
+   flex-direction: column;
+   width: 300px;
+   border-radius: 50%;
+}
+
+.rukavica {
+   flex-direction: column;
+   width: 300px;
+   border-radius: 50%;
+}
+
+.nizhky {
+   flex-direction: column;
+   width: 300px;
+   border-radius: 50%;
+}
+
+h3 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   font-size: 16px;
+   padding: 20px;
+   color: rgb(255, 255, 184);
+   
+}
+
+.ruka_link {
+  border: 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ruka_link:hover {
+   color: rgb(199, 85, 199);
+   transition: 0.5s;
+}
