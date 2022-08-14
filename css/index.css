@@ -80,30 +80,33 @@ section {
 
  .image__wrapper__rukavica {
    background-image: url("../img/hand.jpg");
-  
    background-position: 37% 50%;
+   
  }
 
  .image__wrapper__nizhky  {
    background-image: url("../img/foot.jpg");
-  
    background-position: 60% 50%;
+
 
  }
 
  .glova {
+   
    flex-direction: column;
    width: 300px;
    border-radius: 50%;
 }
 
 .rukavica {
+   
    flex-direction: column;
    width: 300px;
    border-radius: 50%;
 }
 
 .nizhky {
+   
    flex-direction: column;
    width: 300px;
    border-radius: 50%;
@@ -118,11 +121,53 @@ h3 {
 }
 
 .ruka_link {
+   color: brown;
+  padding-top: 20px;
+  padding: 17px;
   border: 1px solid;
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+  background-color: rgb(201, 219, 95);
+  text-transform: uppercase;
+  transition-duration: 1s;
+   
 }
 
 .ruka_link:hover {
-   color: rgb(199, 85, 199);
+   color: rgb(51, 17, 51);
    transition: 0.5s;
+   padding-top: 20px;
+   background-color: aqua;
+   
+}
+
+.ruka_link:hover::before {
+   transform: translate(-5px, -5px);
+   background: rgb(250, 188, 152);
+}
+
+footer {
+   padding: 60px;
+   flex-direction: column;
+}
+
+.instag {
+   text-decoration: none;
+   border: 1px solid;
+   padding: 8px;
+   padding-left: 5px;
+}
+
+.fbs {
+   text-decoration: none;
+   border: 1px solid;
+   padding: 8px;
+   padding-left: 5px;
+}
+
+.twit {
+   text-decoration: none;
+   border: 1px solid;
+   padding: 8px;
+   padding-left: 5px;
 }
