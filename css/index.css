@@ -152,22 +152,51 @@ footer {
 }
 
 .instag {
+   margin: 0 0 5px 5px;
+   font-weight: bolder;
+   background-color: aqua; background-color: rgb(29, 42, 223); background-color: rgb(240, 168, 218);
    text-decoration: none;
-   border: 1px solid;
+   border: 2px solid;
    padding: 8px;
    padding-left: 5px;
+   transition: 0.5s;
 }
+
+.instag:hover {
+   background-color: azure;
+   transition-duration: 0.5s;
+   }
 
 .fbs {
+   margin: 0 0 15px 15px;
+   font-weight: bolder;
+   background-color: aqua; background-color: rgb(29, 42, 223); background-color: rgb(240, 168, 218);
    text-decoration: none;
-   border: 1px solid;
+   border: 2px solid;
    padding: 8px;
    padding-left: 5px;
 }
 
+.fbs:hover {
+   background-color: azure;
+   transition-duration: 0.5s;
+   }
+
 .twit {
+   margin: 13px 0 35px 35px;
+   font-weight: bolder;
+   background-color: aqua; background-color: rgb(29, 42, 223); background-color: rgb(240, 168, 218);
    text-decoration: none;
-   border: 1px solid;
+   border: 2px solid;
    padding: 8px;
    padding-left: 5px;
 }
+
+.twit:hover {
+   background-color: azure;
+   transition-duration: 0.5s;
+   }
+
+   .d-block {
+      padding: 20px !important;
+   }
