@@ -207,3 +207,13 @@ footer {
       flex-direction: column;
       justify-content: space-between;
    }
+
+   .clock {
+      font-size: 25px;
+      font-family: Georgia;
+      color: rgb(113, 47, 139);
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      
+   }
