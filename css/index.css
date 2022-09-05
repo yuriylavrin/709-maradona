@@ -41,16 +41,6 @@ section {
  color: rgb(206, 240, 253);
 }
 
-.ruka_link {
-   text-decoration: none;
-   color: rgb(181, 197, 211)
-}
-
-.ruka_link:hover {
-    color: white; 
-    transition: 1s;
- }
-
 .noga_link {
     text-decoration: none;
     color: rgb(181, 197, 211)
@@ -130,6 +120,8 @@ h3 {
   background-color: rgb(201, 219, 95);
   text-transform: uppercase;
   transition-duration: 1s;
+  display: inline-block;
+  text-decoration: none;
    
 }
 
@@ -149,6 +141,7 @@ h3 {
 footer {
    padding: 60px;
    flex-direction: column;
+   margin: 0 auto;
 }
 
 .instag {
@@ -160,6 +153,8 @@ footer {
    padding: 8px;
    padding-left: 5px;
    transition: 0.5s;
+   display: inline-block;
+   margin-bottom: 5px;
 }
 
 .instag:hover {
@@ -175,6 +170,8 @@ footer {
    border: 2px solid;
    padding: 8px;
    padding-left: 5px;
+   display: inline-block;
+   margin-bottom: 5px;
 }
 
 .fbs:hover {
@@ -190,6 +187,8 @@ footer {
    border: 2px solid;
    padding: 8px;
    padding-left: 5px;
+   display: inline-block;
+   margin-bottom: 5px;
 }
 
 .twit:hover {
@@ -215,5 +214,5 @@ footer {
       display: flex;
       justify-content: center;
       padding: 5px;
-      
+
    }
